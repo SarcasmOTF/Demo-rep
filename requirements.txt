@@ -1,2 +1,5 @@
 streamlit
 SpeechRecognition
+pipwin
+pyaudio
+setuptools

@@ -1,13 +1,13 @@
 import streamlit as st
 import speech_recognition as sr
-recognizer = sr.Recognizer()
+
 
 def main():
     st.title("My First Upload")
     
     first_name = st.text_input("First Name")
     last_name = st.text_input("Last Name")
-    
+    recognizer = sr.Recognizer()
     if st.button("Submit"):
         with sr.Microphone() as source:
                     #st.write("Listening....")
